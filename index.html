@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tools</title>
+    <link rel="icon" href="download.png" >
+    
+</head>
+<body>
+    <style>
+.cards {
+ width: 200px;
+ height: 220px;
+ background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+ border-radius: 20px;
+ transition: all .3s;
+}
+
+.card2 {
+  border-radius: 20px;
+ width: 200px;
+ height: 220px;
+ background-color: #1a1a1a;
+
+ transition: all .2s;
+}
+
+.card2:hover {
+ transform: scale(0.98);
+ border-radius: 20px;
+}
+
+.cards:hover {
+ box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.30);
+}
+      
+    body{
+        background-color: #1a1a1a;
+        margin: 0px;
+    }
+    header{
+            padding: 10px;
+            text-align: center;
+            background-color: lightgreen;
+    }.logo{
+            float: left;
+            width: 10vh;
+            border-radius: 50%;
+            
+        }
+  .card {
+  
+  height: 220px;
+  
+  position: relative;
+  padding:.4em;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+
+.card::before {
+  content: '';
+  position: absolute;
+  width: 100px;
+  
+  height: 130%;
+  
+}
+
+.card::after {
+  
+  position: absolute;
+  
+  inset: 5px;
+  border-radius: 15px;
+}  
+
+.card-image {
+  
+  width: 100%;
+  height: 130px;
+  border-radius: 30px;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 2px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.display{
+  padding-top:30px ;
+display: flex;
+justify-content:space-evenly;
+
+}
+    </style>
+    <header>
+        <img class="logo" src="download.png" alt="logo" >
+        <h1>TOOLS</h1>
+   </header>
+   <div class="display"><div class="cards">
+   <div class="card2"><div class="card">
+    <a href="pdf.zip" download="Adobe DC Pro.zip"><img class="card-image" src="adobe1.png"></a>
+    <div class="category"> PDF EDITOR </div>
+    <p class="heading">Adobe Acrobat DC Free</p>
+    
+  </div></div>
+</div>
+<div class="cards"><div class="card2"><div class="card">
+  <a href="Ms.office 2021.zip" download="MS_OFFICE-2021_crack.zip"><img class="card-image" src="msoffice1.png"></a>
+    <div class="category"> MS OFFICE </div>
+    <p class="heading">Microsoft Office 2021 crack Free</p>
+     </div></div></div>
+
+<div class="cards"><div class="card2"><div class="card">
+  <a href="winrar-x64-701.exe" download="Winrar-x64.exe"><img class="card-image" src="winrar.jpeg"></a>
+    <div class="category"> ARCHIVE </div>
+    <p href="#" class="heading">Winrar </p>
+</div></div></div></div>
+</body>
+</html>
